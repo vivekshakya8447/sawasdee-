@@ -1,65 +1,96 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Footer from '../src/Footer/Footer'
+import Header from '../src/Header/Header'
+import Banner from '../src/Widgets/banner'
+import Property from '../src/Widgets/property'
+import Landmark from '../src/Widgets/Landmark'
+import Layout from '../src/Widgets/Layout'
+
+import Location from '../src/Widgets/Location'
+import Price from '../src/Widgets/Price'
+import Gallery from '../src/Widgets/Gallery'
+import Video from '../src/Widgets/Video'
+import Brand from '../src/Widgets/Brand'
+import From from '../src/Widgets/from'
+import Svgcol from '../src/Widgets/Svgcol'
+// import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
+        <title>Sawasdee JLG Galleria</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Header />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <Banner />
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+      <Property />
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+      <Landmark />
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+      <Svgcol /> 
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      <Layout />
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+      <Location />
+
+      <Price />
+
+      <Gallery />
+
+      <Video />
+
+      <Brand />
+
+      <From />
+
+      <Footer />
+
+
+
+      <style jsx global>{`
+      .t-center{
+        text-align: center;
+      }
+      body {
+        font-family: "Muli",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #575a7b;
+        background: #fff;
+        overflow-x: hidden;
+    }
+      .w-50{
+        width :50%;
+      }
+        .container {
+          width: 1140px;
+          margin: 0 auto;
+        }
+        .d-flex{
+          display: flex;
+      }
+      li{
+          list-style: none;
+      }
+      .align-item{
+        align-items: center;
+      }
+      .p-15{
+        padding: 15px;
+      }
+      .justify-content-space{
+        justify-content: space-between;
+      }
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      `}</style>
+    </>
   )
 }
