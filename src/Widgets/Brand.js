@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDownload } from 'react-icons/Fa';
+import { FaDownload } from 'react-icons/fa';
 
 
 const Brand = () => {
@@ -66,9 +66,11 @@ const Brand = () => {
                 .heading-brand h2{
                     font-size: 45px;
                     color:#fff;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                 }
                 .heading-brand{
-                    padding: 100px 0;
+                    padding: 100px 0px 40px;
                 }
                 
                 .button-brand{

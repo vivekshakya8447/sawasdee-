@@ -57,7 +57,7 @@ const Banner = () => {
                     border-radius: 3px;
                     color: #fff;
                     fill: #fff;
-                    border: 1px solid #fff;
+                    border: 2px solid #fff;
                     margin: 30px;
                     text-align: center;
                 }

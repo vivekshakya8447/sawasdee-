@@ -7,7 +7,7 @@ const Landmark = () => {
             
         <div className='landmark-section'>
             <div className=' d-flex'>
-                <div className='landmark-colum p-90'>
+                <div className='landmark-colum p-90 '>
                     <div className='text'>
                         <h2 className="heading-title">THE DEFINING<br />LANDMARK IN<br />NOIDA IS HERE</h2>
                     </div>
@@ -41,46 +41,47 @@ const Landmark = () => {
             .btnd{
                 color: #fff;
                 border-bottom: 1px solid #fff;
-                margin-top: 20px;
+                margin-top: 40px;
                 display: inline-block;
             }
             .p-90{
-                padding: 90px;
+                padding: 115px;
             }
-                .landmark-colum  img{
-                    width: 100%;
-                }
-                .landmark-colum{
-                    width: 50%;
-                }
-                .image-property img{
-                    width: 50px;
-                }
-                .landmark-section{
-                    background: #3e2558;
-                    padding: 40px 0px;
-                }
-                .heading-title{
-                    color: #FFF;
-                    margin: 0px;
-                    font-size: 62px;
-                    line-height: 1.15em;
-                }
-                
-                .space-20 p{
-                    color: #D0C5DD;
-                    text-align: justify;
-                }
-                .m-170{
-                    margin-top: 170px;
-                }
-                .sub-heading{
-                    margin: 15px 0px;
-                    
-                    color: #FFF;
-                    font-size: 22px;
-                    line-height: 1.15em;
-                }
+            .landmark-colum  img{
+                width: 100%;
+            }
+            .landmark-colum{
+                width: 50%;
+            }
+            .image-property img{
+                width: 50px;
+            }
+            .landmark-section{
+                background: #3e2558;
+                padding: 40px 0px;
+            }
+            .heading-title{
+                color: #FFF;
+                font-family: "DM Serif Display",Arial,sans-serif;
+                font-weight: 400;
+                margin: 0px;
+                font-size: 62px;
+                line-height: 1.15em;
+            }
+            
+            .space-20 p{
+                color: #D0C5DD;
+                text-align: justify;
+            }
+            .m-170{
+                margin-top: 170px;
+            }
+            .sub-heading{
+                margin: 15px 0px 36px; 
+                color: #FFF;
+                font-size: 22px;
+                line-height: 1.15em;
+            }
                 
             `}</style>
         </>

@@ -70,6 +70,9 @@ const Svgcol = () => {
                 text-align: center;
                 color: #fff;
             }
+            .svg-image img{
+                padding: 20px;
+            }
             .justify-c-s{
                 justify-content: space-around;
             }

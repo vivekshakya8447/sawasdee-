@@ -33,6 +33,9 @@ const Layout = () => {
                     position: relative;
                 }
                 .heading-area h2{
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
+                    margin-bottom:30px;
                     color: #fff;
                     font-size: 45px;
                 }

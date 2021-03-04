@@ -53,6 +53,7 @@ const Footer = () => {
                 .footer-text p{
                     font-size: 10px;
                     line-height: 1.2em;
+                    margin: 20px 0px 10px;
                 }
 
                 .widget-socials a {

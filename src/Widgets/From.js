@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaCoffee } from 'react-icons/Fa';
-import ReCAPTCHA from "react-google-recaptcha";
+import { FaCoffee } from 'react-icons/fa';
 
 
 const From = () => {
@@ -16,7 +15,7 @@ const From = () => {
                     <div className='connect'>Get in touch with us if you would like to schedule a showing.</div>
                     <div className='button-brand'>
                         <div className='button'>
-                            <a>Connect With Executive</a>
+                            <a>SCHEDULE MEETING</a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +56,10 @@ const From = () => {
                     margin: 0 auto;
                 }
                 input:-ms-input-placeholder {
-                    color: #5d89d8;
+                    color: #FFF;
+                   }
+                   input:-ms-input-placeholder:focus{
+                       color: #fff;
                    }
                 .form-section{
                     background-color: #371F51;
@@ -66,15 +68,21 @@ const From = () => {
                 }
                 textarea:focus, input:focus{
                     outline: none;
+                    cursor: pointer;
+                    color: #fff;
                 }
                 .buttons {
                     color: #000;
                     font-size: 15px;
-                    font-weight: 600;
+                    font-weight: 400;
                     backgorund:#fff;
                     text-transform: uppercase;
                     border-radius: 0 0 0 0;
                     padding: 15px 45px 15px 45px;
+                }
+                .buttons:hover{
+                    background-color: #00ce1b;
+                    color: #000;
                 }
                 .button {
                     color: #fff;
@@ -90,6 +98,8 @@ const From = () => {
                 }
                 .heading-form h2{
                     color: #FFF;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                     margin: 60px 0px 30px;
                     font-size: 22px;
                 }
@@ -115,6 +125,8 @@ const From = () => {
                 }
                 .heading h2{
                     color: #FFF;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                     font-size: 50px;
                 }
                 .button-brand a{

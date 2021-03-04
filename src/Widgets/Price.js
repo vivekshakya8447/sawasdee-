@@ -27,7 +27,7 @@ const Price = () => {
                                     <a><span>Get Price In Detail</span></a>
                                 </div>
                                 <div className='button'>
-                                    <a><span>Get Price In Detail</span></a>
+                                    <a><span>Connect With Executive</span></a>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,43 @@ const Price = () => {
                                     <a><span>Get Price In Detail</span></a>
                                 </div>
                                 <div className='button'>
+                                    <a><span>Connect With Executive</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div className='d-flex mar-80'>
+                        <div className='w-50 border-f'>
+                            <h2 className="heading-title  m-20">LOWER <br />GROUND FLOOR</h2>
+                            <h2 className="timeing m-20">30:70 Payment Plan</h2>
+                            <div className="space-20 text-floor m-20">
+                                <p>Type: &nbsp;Lower Ground Floor</p>
+                                <p>Size :499 – 1935 SQ. FT.</p>
+                                <p><strong>Starting Price :₹ 1.74 CR*&nbsp;</strong></p>
+                            </div>
+                            <div className='floor-button-ripper d-flex'>
+                                <div className='button'>
                                     <a><span>Get Price In Detail</span></a>
+                                </div>
+                                <div className='button'>
+                                    <a><span>Connect With Executive</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='w-50 border-f'>
+                            <h2 className="heading-title ">GROUND <br /> FLOOR</h2>
+                            <h2 className="timeing m-20">30:70 Payment Plan</h2>
+                            <div className="space-20 text-floor m-20">
+                                <p>Type: &nbsp;Lower Ground Floor</p>
+                                <p>Size :499 – 1935 SQ. FT.</p>
+                                <p><strong>Starting Price :₹ 1.74 CR*&nbsp;</strong></p>
+                            </div>
+                            <div className='floor-button-ripper d-flex'>
+                                <div className='button'>
+                                    <a><span>Get Price In Detail</span></a>
+                                </div>
+                                <div className='button'>
+                                    <a><span>Connect With Executive</span></a>
                                 </div>
                             </div>
                         </div>
@@ -91,6 +127,8 @@ const Price = () => {
                 }
                 .heading-title{
                     color: #FFF;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                     font-size: 62px;
                     line-height: 1.15em;
                 }
@@ -99,6 +137,9 @@ const Price = () => {
                 }
                 .heading{
                     padding: 80px 0px 36px;
+                }
+                .mar-80{
+                    margin: 80px 0;
                 }
                 .border-f{
                     border-style: solid;
@@ -147,6 +188,8 @@ const Price = () => {
                 }
                 .timeing{
                     color: #bb9b43;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                     font-size: 22px;
                     line-height: 1.15em;
                 }
@@ -162,6 +205,8 @@ const Price = () => {
                 .heading h2{
                     color: #FFF;
                     font-size: 45px;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                 }
                 
             `}</style>

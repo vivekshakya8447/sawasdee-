@@ -52,6 +52,8 @@ const Location = () => {
                 }
                 .heading-location h2{
                     color: #FFF;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                     font-size: 62px;
                     line-height: 1.15em;
                 }

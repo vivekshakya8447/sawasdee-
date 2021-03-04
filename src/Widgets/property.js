@@ -23,7 +23,9 @@ const Property = () => {
             <style jsx>{`
 
                 .property-text h2{
+                    font-family: "DM Serif Display",Arial,sans-serif;
                     color: #FFF;
+                    font-weight: 400;
                     font-size: 45px;
                     margin: 0px;
                     padding 0px;

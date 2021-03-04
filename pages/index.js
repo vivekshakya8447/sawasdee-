@@ -1,17 +1,16 @@
 import Head from 'next/head'
 import Footer from '../src/Footer/Footer'
 import Header from '../src/Header/Header'
-import Banner from '../src/Widgets/banner'
+import Banner from '../src/Widgets/Banner'
 import Property from '../src/Widgets/property'
 import Landmark from '../src/Widgets/Landmark'
 import Layout from '../src/Widgets/Layout'
-
 import Location from '../src/Widgets/Location'
 import Price from '../src/Widgets/Price'
 import Gallery from '../src/Widgets/Gallery'
 import Video from '../src/Widgets/Video'
 import Brand from '../src/Widgets/Brand'
-import From from '../src/Widgets/from'
+import From from '../src/Widgets/From'
 import Svgcol from '../src/Widgets/Svgcol'
 // import styles from '../styles/Home.module.css'
 
@@ -64,6 +63,7 @@ export default function Home() {
         background: #fff;
         overflow-x: hidden;
     }
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
       .w-50{
         width :50%;
       }

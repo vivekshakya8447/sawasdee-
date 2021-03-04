@@ -65,8 +65,12 @@ const gallery = () => {
                 }
                 .heading-gallery h2{
                     color: #FFF;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
+                    margin-bottom: 40px;
                     font-size: 45px;
                 }
+                
                 .gallery-section{
                    padding: 100px 0px;
                 }

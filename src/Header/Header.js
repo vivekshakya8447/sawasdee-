@@ -50,9 +50,9 @@ const Header = () => {
                 header{
                     background-color: #0B1F40;
                     color: #fff;
-                    padding: 13px 0 13px 0;
+                    padding: 15px 0 15px 0;
                 }
-                menu-item a {
+                .menu-item a {
                     display: inline-block;
                     font-size: 15px;
                     font-weight: 400;

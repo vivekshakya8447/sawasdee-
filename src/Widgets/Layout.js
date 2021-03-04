@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { AiFillPlusCircle } from 'react-icons/ai';
 
 const Layout = () => {
     return (
@@ -120,7 +120,7 @@ const Layout = () => {
                     <div className= 'w-60 t-center'>
                         <div className='bg-w'>
                             <img src= '../../image/floor1-2-768x762.jpg' />
-                            <h2 className='t-center m-10'> zoom in</h2>
+                            <h2 className='t-center m-10'>< AiFillPlusCircle /> zoom</h2>
                         </div>
                     </div>
                 </div>          
@@ -163,6 +163,14 @@ const Layout = () => {
                     border-width: 2px 2px 2px 2px;
                     border-color: #bb9b43;
                     border-radius: 0 0 0 0;
+                }
+                .bg-w h2{
+                    align-items: center;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: center;
                 }
                 .text-col ul li{
                     position: relative;
@@ -215,19 +223,34 @@ const Layout = () => {
                     text-align: center;
                 }
                 .color-choice-col{
-                    padding: 7px;
+                    padding: 2px;
                     text-align: center;
 
                 }
                 .color-choice-col h2{
                     color: #FFF;
+                    font-weight: 400;
+                    font-family: "DM Serif Display",Arial,sans-serif;
                     font-size: 16px;
+                }
+                .list-info{
+                    margin-bottom: 20px;
                 }
                 .color{
                     width: 80px;
                     height: 40px;
                     margin: 0px 10px 0px 20px;
 
+                }
+                .ali-right {
+                    color: #FFF;
+                }
+                .ali-right {
+                    font-weight: 700;
+                    text-align: right;
+                }
+                .heading-info {
+                    color: #917FA7;
                 }
                 .m-2{
                     margin-bottom: 50px;
@@ -264,6 +287,8 @@ const Layout = () => {
                 }
                 .heading-title {
                     color: #FFF;
+                    font-family: "DM Serif Display",Arial,sans-serif;
+                    font-weight: 400;
                     font-size: 45px;
                 }
                 .bg-w{
